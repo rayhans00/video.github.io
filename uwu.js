@@ -2,9 +2,9 @@ const s = (p) => {
   let demo1Shader, img, fft, audio, toggleBtn
 
   p.preload = () => {
-    audio = p.loadSound('audio/uwu.mp3')
-    demo1Shader = p.loadShader('shaders/base.vert', 'shaders/d1.frag')
-    img = p.loadImage('img/1.jpg')
+    audio = p.loadSound('uwu.mp3')
+    demo1Shader = p.loadShader('base.vert', 'd1.frag')
+    img = p.loadImage('1.jpg')
   }
 
   p.setup = () => {
